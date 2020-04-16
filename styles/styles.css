@@ -1,4 +1,6 @@
 img {
   display: block;
-  margin: auto; 
+  margin: auto;
+  max-width: 604px;
+  width: 100%;
 }
