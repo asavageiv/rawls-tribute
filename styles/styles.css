@@ -1,6 +1,32 @@
-img {
+body {
+  background-color: #eeeeee;
+  color: #454545;
+  line-height: 1.7;
+  margin: 1rem auto;
+  max-width: 40rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+figcaption {
+  font-size: .8em;
+}
+
+#img-div {
+  margin: auto;
+}
+
+#image {
   display: block;
   margin: auto;
-  max-width: 604px;
+  max-width: 604px; /* actual image width */
   width: 100%;
+}
+
+#tribute-info {
+  margin: auto;
+  padding: 0 1rem;
+  text-align: justify;
 }
