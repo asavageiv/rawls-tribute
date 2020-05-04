@@ -6,12 +6,40 @@ body {
   max-width: 40rem;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
+}
+
+h1 {
+  margin-block-end: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0.5rem 0;
 }
 
 figcaption {
   font-size: .8em;
+}
+
+.quotebox {
+  padding: 0 1em;
+}
+
+.quote {
+  color: #2f4606;
+}
+
+.citation {
+  font-size: .9rem;
+}
+
+#titlequote {
+  text-align: center;
 }
 
 #img-div {
@@ -25,8 +53,20 @@ figcaption {
   width: 100%;
 }
 
+#principles {
+  list-style-type: none;
+}
+
+#sub-principles {
+  list-style-type: lower-alpha;
+}
+
 #tribute-info {
   margin: auto;
   padding: 0 1rem;
   text-align: justify;
+}
+
+#footnotes {
+  font-size: .9em;
 }
