@@ -53,10 +53,6 @@ figcaption {
   width: 100%;
 }
 
-#principles {
-  list-style-type: none;
-}
-
 #sub-principles {
   list-style-type: lower-alpha;
 }
